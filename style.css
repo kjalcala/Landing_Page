@@ -1,3 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin:15px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color:rgb(212, 166, 139);
+}
+
+.logo1 {
+    height: 50px;
+    width: auto;
+    margin-left: 5px;
+    margin-top: -5px;
+}
+
+.content1 {
+    display: flex;
+    align-items: center;
+    padding: 75px;
+}
+
+.c1header {
+    font-size:48px;
+    font-weight:900;
+    margin-bottom: 5px;
+}
+
+.c1desc {
+    font-size: 15px;
+    color:rgb(85, 84, 84);
+    margin-bottom: 15px;
+}
+
+.signup {
+    font-size: 20px;
+    color: white;
+    background-color:rgb(80, 180, 71);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    padding:75px;
+}
+
+.upc2 {
+    font-size:36px;
+    font-weight:1000;
+    color:white;
+}
+
+.downc2 {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.infodesc {
+    text-align: center;
+}
+
 .logo {
     height: 100px;
     width: auto;
@@ -11,4 +103,59 @@
 .infoimg {
     height: 150px;
     width: auto;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: column;
+    padding: 75px;
+    background-color: rgb(255, 248, 240);
+}
+
+.testimony {
+    font-style:italic;
+    font-size: 36px;
+    font-family: garamond;
+}
+
+.author {
+    text-align:right;
+    font-size:24px;
+}
+
+.content4 {
+    display: flex;
+    padding: 75px;
+    justify-content: center;
+}
+
+.c4box {
+    background-color: rgb(80, 180, 71);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 75px;
+}
+
+.c4boxtitle {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+
+.c4boxtext {
+    font-size: 15px;
+    color: white;
+    margin-right: 15px;
+}
+
+.c4box .signup {
+    border: 2px solid white;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(243, 198, 143);
+    color:white;
+    padding: 15px;
 }
